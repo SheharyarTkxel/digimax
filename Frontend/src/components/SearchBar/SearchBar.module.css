@@ -1,0 +1,35 @@
+.searchBar {
+  padding: 4rem 0;
+  flex: 1 1 100% ;
+}
+.searchBarWrapper {
+  position: relative;
+}
+.formControl {
+  width: 100%;
+  padding: .4rem 1.4rem;
+  border: 1px solid #e6e6e6;
+  border-radius: 24px;
+}
+.formControl:focus-visible{
+  outline: none;
+}
+.formFlex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.searchBtn{
+  flex:2 2 6%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.btnStyle{
+  border: none !important;
+  background-color: unset !important;
+}
+img, svg {
+  vertical-align: middle;
+  fill: #ccc;
+}

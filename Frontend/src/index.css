@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.wordAlign{
+  text-align: end;
+  flex: 2 2 20%;
+}
+
+.modalForm{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-dialog.modal-lg.modal-dialog-centered {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+}
+.modalInput{
+    flex: 1 1 100%;
+    height: 38px;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem 0 0 0.25rem;
+    width: 100%;
+    max-width: 300px;
+}
+.modalInput:focus-visible {
+outline: none;
+}
+.btnStyle{
+  border-radius: 24px!important;
+  padding-top: 0.385rem !important;
+  padding-bottom: 0.385rem !important;
+  padding-left: 1.4rem !important;
+  padding-right: 1.4rem !important;
+}
+.modal-header{
+  padding: 8px 10px !important;
+  margin-bottom: 2px;
+}
+.modal-title{
+  font-size: 18px !important;
+  font-weight:600 !important ;
+  color: grey;
+}
+.modal-footer{
+  padding: 8px 17px !important;
+}
+.ft-btn{
+  font-size: 8px;
+}
+.close-btn{
+  border-radius: 50% !important;
+  background-color: #0d6efd !important;
+  font-size: 8px;
+  fill: #fff  ;
+  margin-bottom: 4px !important;
+  opacity: 100% !important;
+}
+.heading{
+  font-size: 40px;
+  line-height: 30px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 60px;
+}
+button.btnStyles.btn.btn-primary {
+  border-radius: 0 4px 4px 0;
+  padding-top: 0.385rem !important;
+  padding-bottom: 0.385rem !important;
+  
+}
+button.ft-btn.btn.btn-primary {
+  background: none;
+  border: none;
+}
+.text-align-center{
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+
+
