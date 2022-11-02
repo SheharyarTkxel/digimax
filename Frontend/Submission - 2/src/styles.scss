@@ -1,0 +1,57 @@
+@import "~bootstrap/scss/bootstrap";
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #104c7f;
+  background: -webkit-linear-gradient(top left, #104c7f, #4a78b2);
+  background: -moz-linear-gradient(top left, #104c7f, #4a78b2);
+  background: linear-gradient(to bottom right, #104c7f, #4a78b2);
+}
+
+ul {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.main-card {
+  background: white;
+  border-radius: 4px;
+  padding: 32px;
+  max-height: 600px;
+  height: 100%;
+}
+
+.btn-primary {
+  background: #1c558a !important;
+  border: none !important;
+}
+
+.modal-footer {
+  border: none !important;
+}
+.modal-header {
+  border: none !important;
+}
+
+h4 {
+  font-size: 24px !important;
+  text-transform: capitalize !important;
+  margin-bottom: 16px !important;
+}
